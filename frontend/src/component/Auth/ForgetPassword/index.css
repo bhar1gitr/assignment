@@ -1,0 +1,65 @@
+.container-forgetPass{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.container-forgetPass .form-forgetPass{
+  padding: 2rem;
+}
+.form-forgetPass header{
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+ .form-forgetPass input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form-forgetPass input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form-forgetPass a{
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+.form-forgetPass a:hover{
+  text-decoration: underline;
+}
+.form-forgetPass input.button-forgetPass{
+  color: #fff;
+  background: #009579;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 0.2rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form-forgetPass input.button-forgetPass:hover{
+  background: #006653;
+}
+.forgetPass-auth{
+  font-size: 17px;
+  text-align: center;
+}
+.forgetPass-auth label{
+  color: #009579;
+  cursor: pointer;
+}
+.forgetPass-auth label:hover{
+  text-decoration: underline;
+}
